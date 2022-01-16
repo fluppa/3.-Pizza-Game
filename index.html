@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>Pizza Eboy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="apple-touch-icon" sizes="76x76" href="resources/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="resources/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="resources/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="description"></div>
+    <div class="title-screen"><h1>Click to play!!!</h1></div>
+    <div class="wrapper">
+      <div class="marker"></div>
+      <div class="flags-wrapper">
+        <div class="flag">
+          <div class="red-stripe"></div>
+          <div class="white-stripe"></div>
+          <div class="green-stripe"></div>
+        </div>
+        <div class="flag">
+          <div class="red-stripe"></div>
+          <div class="white-stripe"></div>
+          <div class="green-stripe"></div>
+        </div>
+      </div>
+      <div class="mobile-description"></div>
+      <div class="game-screen">
+        <h1 class="game-title">Pizza Eboy</h1>
+        <div class="border-box">
+          <ul class="items-row">
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+          </ul>
+          <div class="pizza-box">
+            <h2 class="pizza-count"></h2>
+            <div class="pizza">
+              <svg height="300" width="300">
+                <circle class="clickable-area" cx="150" cy="150" r="150" fill="transparent" />
+              </svg>
+            </div>
+            <h3 class="per-second"></h3>
+          </div>
+          <ul class="items-row">
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu"></div>
+    <div class="mobile-open">OPEN MENU</div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
